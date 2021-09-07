@@ -1,0 +1,348 @@
+ 
+  
+  
+  /*   barra de navegación*  /
+  
+  .main-navbar {
+    fondo :  rgba(0,0,0 ,0.4 );
+    posición :fija;
+    peso de fuente :  700 ;
+    familia de fuentes :  "Gill Sans" ,  "Gill Sans MT" , Calibri ,  "Trebuchet MS" , sans-serif;
+    índice z :  1 ;
+    relleno :  10px  0px ;
+    ancho :  100vw ;
+  }
+  
+  .barra de navegación principal  >  ol  >  li {
+    tipo de estilo de lista : ninguno;
+    pantalla : bloque en línea;
+    relleno : 0px  20px ;
+  }
+  
+  .barra de navegación principal  >  ol  >  li  >  a {
+    color :  #fff ;
+    decoración de texto : ninguna;
+  }
+  
+  .main-navbar  a : hover {
+    transición :  1 s ;
+    color :  # fff000 ;
+    decoración de texto : subrayado;
+  }
+  
+  .submenú {
+    posición : absoluta;
+    pantalla : ninguna;
+    fondo :  rgba ( 255 ,  255 ,  255 ,  0.9 );
+    ancho :  10% ;
+    caja-sombra :  0px  0px  2px  2px  rgba ( 0 ,  0 ,  0 ,  0.1 );
+  }
+  
+  .submenu  li {
+    tipo de estilo de lista : ninguno;
+  }
+  
+  .submenú  a {
+    decoración de texto : ninguna;
+    color :  #000 ;
+  }
+  
+  .principal barra de navegación-  li : vuelo estacionario .submenú {
+    pantalla : bloque;
+  }
+  
+  /*  Fondo principal  * /
+  
+  .menú principal {
+    alineación de texto : centro;
+    fondo :  #121212 ;
+    familia de fuentes :  "Gill Sans" ,  "Gill Sans MT" , Calibri ,  "Trebuchet MS" , sans-serif;
+  }
+  
+  .tabla del menú principal  {
+    margen :  0% automático;
+    ancho :  100vw ;
+    altura :  100vh ;
+    colapso de la frontera : colapso;
+  }
+  
+  .menú principal  th {
+    ancho :  50% ;
+    altura : auto;
+  }
+  
+  .main-menu_Image {
+    ancho :  50% ;
+    altura : auto;
+  }
+  
+  .main-menu_Image  img {
+    objeto de ajuste : cubierta;
+    ancho :  100% ;
+    altura :  1000px ;
+  }
+  
+  .main-menu_Phrase {
+    color :  #fff ;
+    tamaño de fuente :  50px ;
+    alineación de texto : centro;
+    cursor : predeterminado;
+    peso de fuente :  700 ;
+  }
+  
+  /*Contenedor de tarjetas * /
+  
+  . contenedor de tarjetas {
+    ancho :  100 % ;
+    altura : auto;
+    pantalla : flex;
+    justificar-contenido : centro;
+  }
+  
+  . contenedor de tarjetas . tarjeta {
+    ancho :  550 px ;
+    altura :  500 px ;
+    caja-sombra :  0 px  15 px  25 px  rgba ( 0 ,  0 ,  0 ,  0.2 );
+    margen :  20 px ;
+    flotar : izquierda;
+    cursor : predeterminado;
+    alineación de texto : centro;
+    fondo :  # fff ;
+  }
+  
+  . card-container  img {
+    ancho :  550 px ;
+    altura :  300 px ;
+  }
+  
+  .tarjetero  p {
+    relleno :  20 px  20 px ;
+  }
+  
+  .contenedor de tarjetas . card : hover {
+    transición :  60 ms ;
+    transformar :  translateY ( 10 px );
+    opacidad :  90 % ;
+  }
+  
+  . card-container-video {
+    ancho :  100 % ;
+    altura : auto;
+    pantalla : flex;
+    justificar-contenido : centro;
+  }
+  
+  . tarjeta-contenedor-video . video {
+    ancho :  600 px ;
+    altura :  390 px ;
+    desbordamiento : oculto;
+    caja-sombra :  0 px  0 px  5 px  5 px  rgba ( 0 ,  0 ,  0 ,  0.2 );
+    margen :  20 px ;
+    flotar : izquierda;
+    fondo :  # fff ;
+  }
+  
+  / * Contenedores * /
+  
+  . contenedor {
+    alineación de texto : centro;
+    fondo :  # 121212 ;
+    transición :  1 s ;
+  }
+  
+  / * Conocimiento del juego * /
+  
+  . game-lore {
+    familia de fuentes :  "Gill Sans" ,  "Gill Sans MT" , Calibri ,  "Trebuchet MS" , sans-serif;
+    ancho :  90 vw ;
+    altura : auto;
+    color :  # 121212 ;
+    margen :  30 px  30 px ;
+  }
+  
+  . game-lore  h1 {
+    color :  # 121212 ;
+    fondo : ninguno;
+    relleno :  30 px  0 px  0 px  0 px ;
+    peso de fuente :  500 ;
+  }
+  
+  . game-lore  img {
+    ancho :  200 px ;
+    altura : auto;
+  }
+  
+  . historia del juego . lore  p {
+    tamaño de fuente :  20 px ;
+    alinear texto : justificar;
+  }
+  
+  / * acerca de main * /
+  
+  . about-main {
+    ancho :  100 vw ;
+    altura : auto;
+    fondo :  # 121212 ;
+  }
+  
+  . about-main  p {
+    alineación de texto : centro;
+    tamaño de fuente :  50 px ;
+    peso de fuente :  700 ;
+    relleno :  100 px  0 px  80 px  0 px ;
+    color :  # fff ;
+    familia de fuentes :  "Gill Sans" ,  "Gill Sans MT" , Calibri ,  "Trebuchet MS" , sans-serif;
+  }
+  
+  . about-image {
+    ancho :  100 vw ;
+    altura : auto;
+    alinear-contenido : centro;
+  }
+  
+  . about-image  img {
+    ancho :  100 % ;
+    altura :  800 px ;
+    objeto de ajuste : cubierta;
+  }
+  
+  . creador {
+    ajuste de objeto : contener;
+  }
+  
+  / * sobre contactos * /
+  
+  . about-contact {
+    alineación de texto : centro;
+    margen :  50 px ;
+  }
+  
+  . sobre-contactos  h1 {
+    margen :  0 % ;
+    fondo : ninguno;
+    color :  # 000 ;
+    acolchado :  0 % ;
+    tamaño de fuente :  25 px ;
+  }
+  
+  / * pro tips principal * /
+  
+  . main-pro_tips {
+    fondo :  # 121212 ;
+    ancho :  100 vw ;
+    altura : auto;
+  }
+  
+  . tabla main-pro_tips  {
+    ancho :  100 % ;
+    alineación de texto : centro;
+  }
+  
+  . main-pro_tips  td {
+    margen :  0 % automático;
+    ancho :  50 % ;
+    altura : auto;
+  }
+  
+  . main-pro_tips  p {
+    color :  # fff ;
+    tamaño de fuente :  50 px ;
+    peso de fuente :  700 ;
+    familia de fuentes :  "Gill Sans" ,  "Gill Sans MT" , Calibri ,  "Trebuchet MS" , sans-serif;
+  }
+  
+  . main-pro_tips  img {
+    ancho :  100 % ;
+    altura :  1000 px ;
+    objeto de ajuste : cubierta;
+  }
+  
+  / * contenedores de propinas profesionales * /
+  
+  . pro_container  h1 {
+    relleno :  0 px ;
+    margen :  0 % ;
+  }
+  
+  . pro_tips-container {
+    ancho :  100 % ;
+    altura : auto;
+    alineación de texto : centro;
+    fondo :  # 121212 ;
+  }
+  
+  . pro_tips-container  table {
+    margen : automático;
+    relleno :  5 %  0 px ;
+  }
+  
+  . pro_tips-container  td {
+    ancho :  50 % ;
+    altura : auto;
+  }
+  
+  . pro_tips-container  td : hover {
+    transición :  1 s ;
+    transformar :  translateY ( -15 px );
+  }
+  
+  . pro_tips-container  img {
+    ancho :  100 % ;
+    altura : auto;
+    objeto de ajuste : cubierta;
+  }
+  
+  . pro_tips-p-container {
+    fondo :  # fff ;
+    margen :  30 px ;
+    tamaño de fuente :  20 px ;
+  }
+  
+  /* Pie de página      *  /
+  
+  pie de página {
+    fondo :  # 000 ;
+    color :  # fff ;
+    familia de fuentes :  "Gill Sans" ,  "Gill Sans MT" , Calibri ,  "Trebuchet MS" , sans-serif;
+    tamaño de fuente :  15 px ;
+  }
+  
+  . botones de pie de página {
+    pantalla : flex;
+  }
+  
+   botón de pie de página {
+    ancho :  33 % ;
+    altura :  50 px ;
+    pantalla : flex;
+    borde : ninguno;
+    margen : automático;
+  }
+  
+   botón de pie de página : desplazarse {
+    transformar :  translateY ( -10 px );
+    transición :  50 ms ;
+  }
+  
+   botón de  pie de página img {
+    ancho :  35 px ;
+    altura :  25 px ;
+  }
+  
+  pie de página .facebook {
+    fondo :  #3b5998 ;
+  }
+  
+  pie de página .twitter {
+    fondo :  #00acee ;
+  }
+  
+  pie de página .contacto {
+    fondo :  #dc143c;
+  }
+ 
+
+
+
+
+ 
